@@ -1,0 +1,184 @@
+/* CSS Reset */
+
+* {
+    margin: 0 ;
+    padding: 0 ;
+    box-sizing: border-box ;
+    font-family: "Britannic Bold" ;
+}
+  
+img {
+    height: 100% ;
+}
+
+h1 {
+    text-align: center ;
+    font-size: 60px ;
+    color: rgb(250, 249, 249) ;
+    font-weight: bold ;
+    line-height: 4vw ; 
+}
+
+/* Settind the sections titles h2 */ 
+.titles {
+    text-align: center ;
+    font-size: 35px ;
+    font-weight: bold ;
+}
+
+.titles1 {
+    text-align: center ;
+    font-size: 35px ;
+    font-weight: bold ;
+    color: rgb(250, 249, 249) ;
+}
+
+/* Hero */
+
+.top-nav {
+    display: flex;
+    justify-content: space-between ;
+    height: 12vh ;
+    padding: 3vh 10vh 0 10vh ;
+}
+
+.logo1 {
+    height : 7vw ;
+}
+  
+.links {
+    list-style: none ;
+    display: flex ;
+    justify-content: center ;
+    align-items: center ;
+    font-size: 20px ;
+}
+  
+.links > li {
+    font-weight: bold ;
+    font-size: 100% ;
+    margin-right: 2vw ;
+    color: white ;
+    cursor: pointer ;
+}
+
+.links > li:last-child {
+    margin-right: 0px ;
+}
+  
+.hero {
+    background-image: url("/images/pic/slide5.jpg") ;
+    background-size: cover ;
+    background-repeat: no-repeat ;
+    background-position: center ;
+    position: relative ;
+}
+  
+.hero-content {
+    padding: 20vh 40vh 30vh 40vh ;
+    width: 100% ;
+}
+
+.arrow {
+    height: 7vw;
+    display: flex ;
+    justify-content: center ;
+    align-items:center ;
+}
+
+/* BDD FOUNDATIONS*/
+.foundations {
+    background-color: rgb(229, 229, 235);
+    height : 100vh ;
+}
+
+.solidfoundations {
+    display: flex;
+    justify-content:space-around;
+    align-items: flex-start;
+    margin: 50px 0;
+    text-align: center;  
+}
+
+.BDDfoundations { 
+    padding: 1vw;
+    background-color: white; 
+    margin-right: 2vw; 
+    height : 75vh ;
+    width : 30vw; 
+    border-radius: 15px;
+    box-shadow: 1px;
+    font-family: "Britannic Bold";
+}
+
+.last {
+    margin-right: 0%;
+
+}
+
+.foundation-image {
+    height: 100px;
+    margin-top: 1vw;
+}
+
+.subtitle {
+    font-size: 139%;
+    margin-bottom: 1vw;
+    font-weight:bold;
+}
+
+.first-letter {
+    font-size:140% ;
+}
+
+.description {
+    color: grey;
+    margin-top: 1vw;
+    padding : 0 2vw ;
+    font-size: 140% ;
+    line-height: 1.5vw;
+}
+/* Ecplore section */
+.explore {
+    height : 100vh ;
+}
+.explore-background {
+    background-image: url("/images/pic/parallax-4.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    height: 100vh;
+    padding: 5vw 15vw 5vw 15vw;
+}
+ .video {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5vh;
+    align-self: center;
+ }
+
+/* Utlities */
+.container {
+    padding: 3vw 2vw;
+    width: 100%;
+}
+
+.btn {
+    padding: 10px 10px;
+    border: none;
+    border-radius: 30px;
+}
+
+.btn-blue {
+    background-color: rgb(54, 104, 186);
+    color: #fff;
+    font-size: 95%;
+    width: 7vw;
+    height: 3vw ;
+}
+
+
+  
