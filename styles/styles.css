@@ -265,7 +265,6 @@ h1 {
 .join-blocks {
     position: relative;
     margin-right: 2vh;
-    position: relative;
 }
 
 .last-item {
@@ -276,9 +275,13 @@ h1 {
     position: relative;
     width : 200px;
     margin-bottom: 6vh;
-    background-color: rgba(223, 218, 218, 0.448);
+    background-image: url(/images/pic/bg-icon.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;    
     border-radius: 10px;
     padding: 1vw 3vw;
+    box-shadow: 2px 2px 4px #838282;;
 }
 
 .join-image {
@@ -446,19 +449,25 @@ li {
 
 .community-section {
     margin-right: 5%;
-    width : 33%;
-    border-style: solid;
-
-    border-color: black;
     padding: 2vw ;
 }
 
+.part2 {
+    width: 500px;
+    height: auto;
+    border-radius: 6px;
+    border-style: groove;
+}
+
 .community-section > img {
-    height: 100px;
+    height: 80px;
     width: auto;
     border-radius: 15px;
     margin-bottom: 2vw;
+}
 
+.community-section > p {
+    font-weight: bold;
 }
 
 
