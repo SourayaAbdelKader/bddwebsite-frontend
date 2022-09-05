@@ -13,7 +13,7 @@ img {
 }
 
 h1 {
-    padding: 5% 15% 11% 15%;
+    padding: 9vw 15vw 16vw 15vw;
     text-align: center;
     font-size: 40px;
     color: rgb(250, 249, 249);
@@ -41,11 +41,12 @@ h1 {
     display: flex;
     justify-content: space-between;
     align-items: center;   
-    padding: 1vw 2vw;
+    padding: 2vw 5vw;
 }
 
 .logo1 {
-    width : 5vw;
+    width : 80px;
+    height: auto;
 }
   
 .links {
@@ -493,8 +494,10 @@ h1 {
  
 /* footer section */
 .footer {
+    position: relative;
     background-image: linear-gradient(rgb(29, 28, 28), rgba(68, 68, 66, 0.801));
     width: 100%;
+    padding: 2vw 2vw;
 }
 
 .footer-container {
@@ -511,23 +514,73 @@ h1 {
     width : 50vw;
 }
 
+.discover {
+    margin-bottom: 2vw;
+}
+
 .discover > h3 {
-    color: gray;
+    position: relative;
+    color: rgb(184, 184, 202);
     font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 2vw;
+}
+
+/* used h4 just in this section */
+h4 {
+    font-weight: bold;
+    color: gray;
+    font-size: 20px;
+    margin-bottom: 1vw;
+}
+
+.box2 {
+    margin-top: 3vw;
 }
 
 .lists1 > ul {
+    position: relative;
     list-style-type: none;
 }
 
 .lists1 > li {
+    position: relative;
     list-style-type: none;
-    color: wheat;
+    color: white;
+    font-weight: bold;
+    padding: 1vh 3vh;
+}
+
+.subscribe > h3 {
+    color: rgb(184, 184, 202);
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 2vw;
+}
+
+.email {
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    padding: 2vw 0vw;
+}
+
+.email-box {
+    position: relative;
+    background-color: transparent;
+    font-weight: bold;
+    font-size: 20px;
 }
 
 .sub-contacts {
     position: relative;
     display: flex;
+    padding: 1vw 0vw;
+}
+
+.sub-contacts > p {
+    color: white;
+    font-weight: bold;
 }
 
 .icons {
@@ -536,8 +589,54 @@ h1 {
     width :auto;
 }
 
-.contact {
-    
+.download-apps {
+    color: gray;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.apps {
+    width: 170px;
+    height: auto;
+    margin-right: 2vw;
+}
+
+.one-line {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.line1 {
+    position: relative;
+    color: white;
+    margin-right: 10vw;
+}
+
+.last-line {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding: 0vw 5vw;
+}
+
+.last-line1 {
+    color: white;
+}
+
+.blue-text {
+    color: blue;
+}
+
+.last-line2 {
+    position: relative;
+    display: flex;
+    margin-top: 2vw;
+}
+
+.social-media > li {
+    display: inline-block;
 }
 
 /* Utlities */
@@ -548,7 +647,7 @@ h1 {
 
 .btn {
     position: relative;;
-    padding: 1vh 1vh;
+    padding: 1vh 2vh;
     border: none;
     border-radius: 30px;
 }
@@ -584,6 +683,12 @@ h1 {
     .boxes {
         width : 80% ;
     }
+
+    .footer-mobile {
+        height: auto;
+        width: 100%;
+    }
+
 }
 
 @media only screen and (max-width: 1300px) {
@@ -593,4 +698,4 @@ h1 {
         flex-wrap: wrap;
         justify-content: center;
     }
-
+}
